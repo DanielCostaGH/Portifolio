@@ -1,0 +1,75 @@
+body, h1{
+    margin: 0;
+}
+#cabecario{
+    width: auto;
+    height: 60px;
+    background-color: #c04044;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    font-family: Tahoma;
+    text-shadow: 2px 1px 2px black;
+}
+body{
+    background-image: url("../imgcontatos/bg-projeto.jpg");
+    background-color: black;
+}
+#retangulomeio{
+    display: block;
+    float: left;
+    width: 750px;
+    height: 370px;
+    margin-top: 100px;
+    margin-left: 22%;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 15%;
+    border: 10px solid #c04044;
+}
+#imgs {
+    display: inline-flex;
+    list-style-type: none;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#github:hover{
+    border-radius: 22%;
+    background-color: #c04044;
+    border: 2px solid #c04044;
+    transition: 0.3s;
+}
+#whatsapp{
+    margin-left: 60px;
+}
+#whatsapp:hover{
+    border-radius: 22%;
+    background-color: #c04044;
+    border: 2px solid #c04044;
+    transition: 0.3s;
+}
+#linkedin{
+    margin-left: 60px;
+}
+#linkedin:hover{
+    border-radius: 22%;
+    background-color: #c04044;
+    border: 2px solid #c04044;
+    transition: ease-in 0.3s;
+}
+#email{
+    list-style-type: none;
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 20%;
+    padding-top: 0.5%;
+}
+#email:hover{   
+    background-color: #c04044;
+    border: 2px solid #c04044;
+    transition: 0.3s;
+}
+

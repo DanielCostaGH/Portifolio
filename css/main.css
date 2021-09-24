@@ -1,0 +1,68 @@
+body{
+	margin: 0;/*sem margem*/
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+header{
+	background-color:#c04044;/*cor do cabeçalho*/
+	height: 70px;
+    text-align: center;
+    color: azure;
+    padding-top: 15px;
+
+}
+
+
+h1{
+	color: #F8F8FF;/* cor da fonte*/
+	text-align: center;/* localização da h1*/
+	font-family:arial;/* varia de gostos e computador*/
+	margin:0 0 30px 0;
+    text-shadow:2px 3px black;
+
+	
+}	
+
+#corpo{
+	background-image: url('../img/paginaborrada.jpg');
+	background-size: 100%;
+	min-height: 500px;
+	padding:0px 0 0 0;
+	clear: both;
+
+}
+footer{
+	background-color: #c04044;
+	height: 80px;
+	text-align: center;
+	padding: 45px 0px 10px;
+    color: white;
+    font-size: 19px;
+
+}
+
+*{
+	padding: 0;
+	
+	font-family: arial
+}
+p{
+	color:#000000;
+	font-size: 18px;
+	text-align: justify;
+
+
+}
+.coisa{
+	width: 900px;
+	margin: auto;
+}
+
+.linha{
+	background-color: rgba(255, 255, 255, 0.644);
+	padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+
+}
